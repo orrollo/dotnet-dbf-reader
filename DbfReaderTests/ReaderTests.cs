@@ -10,7 +10,9 @@ namespace DotNetDbfReaderTests
 	{
 		public static Stream GetDbfStream()
 		{
-			return Assembly.GetExecutingAssembly().GetManifestResourceStream("DotNetDbfReaderTests.test.dbf");
+			return Assembly
+				.GetExecutingAssembly()
+				.GetManifestResourceStream("DotNetDbfReaderTests.test.dbf");
 		}
 
 		[Test]
@@ -64,13 +66,19 @@ namespace DotNetDbfReaderTests
 				new object[] {9.0, 9.0, 9.0, 2.0, 2.0},
 				new object[]
 					{
-						"United States of America", "United States of America",
-						"United States of America", "United States of America", "United States of America"
+						"United States of America", 
+						"United States of America",
+						"United States of America", 
+						"United States of America", 
+						"United States of America"
 					},
 				new object[]
 					{
-						"Adm-1 boundary water indicator", "Adm-1 boundary water indicator",
-						"Adm-1 boundary water indicator", "Adm-1 boundary", "Adm-1 boundary"
+						"Adm-1 boundary water indicator", 
+						"Adm-1 boundary water indicator",
+						"Adm-1 boundary water indicator", 
+						"Adm-1 boundary", 
+						"Adm-1 boundary"
 					},
 				new object[] {"USA", "USA", "USA", "USA", "USA"},
 				new object[] {1.0, 1.0, 1.0, 1.0, 1.0}

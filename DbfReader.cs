@@ -24,6 +24,12 @@
  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  * 
+ * -------------------------------------------------------------------------
+ * source code of library located at:
+ * http://github.com/orrollo/dotnet-dbf-reader
+ * 
+ * version 1.0 - may 2014 - initial
+ * 
  */
 
 using System;
